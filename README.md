@@ -123,6 +123,14 @@ console.log( foo.name );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/define-read-only-property`][@stdlib/utils/define-read-only-property]: define a read-only property.
+-   [`@stdlib/utils/define-read-only-accessor`][@stdlib/utils/define-read-only-accessor]: define a read-only accessor.
+-   [`@stdlib/utils/define-write-only-accessor`][@stdlib/utils/define-write-only-accessor]: define a write-only accessor.
+
 </section>
 
 <!-- /.related -->
@@ -185,6 +193,16 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-define-read-write-accessor/main/LICENSE
 
 [@stdlib/utils/define-property]: https://github.com/stdlib-js/utils-define-property
+
+<!-- <related-links> -->
+
+[@stdlib/utils/define-read-only-property]: https://github.com/stdlib-js/utils-define-read-only-property
+
+[@stdlib/utils/define-read-only-accessor]: https://github.com/stdlib-js/utils-define-read-only-accessor
+
+[@stdlib/utils/define-write-only-accessor]: https://github.com/stdlib-js/utils-define-write-only-accessor
+
+<!-- </related-links> -->
 
 </section>
 
