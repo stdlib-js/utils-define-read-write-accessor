@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/define-read-write-accessor"
-click B href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/main"
-click C href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/production"
-click D href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/esm"
-click E href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/deno"
-click F href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/define-read-write-accessor"
+%% click B href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/main"
+%% click C href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/production"
+%% click D href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/esm"
+%% click E href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/deno"
+%% click F href "https://github.com/stdlib-js/utils-define-read-write-accessor/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/define-read-write-accessor
