@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-read-write-accessor",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Define a read-write accessor.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/types": "^0.0.14",
-    "@stdlib/utils-define-property": "^0.0.9"
+    "@stdlib/utils-define-property": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.0.8",
