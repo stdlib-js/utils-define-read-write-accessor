@@ -42,6 +42,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/utils-define-read-write-accessor/tags). For example,
+
+```javascript
 import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@v0.1.0-deno/mod.js';
 ```
 
@@ -93,7 +98,7 @@ v = obj.foo;
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@v0.1.0-deno/mod.js';
+import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@deno/mod.js';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
