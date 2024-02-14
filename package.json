@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-define-read-write-accessor",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "Define a read-write accessor.",
   "license": "Apache-2.0",
   "author": {
@@ -37,8 +37,8 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/types": "^0.2.0",
-    "@stdlib/utils-define-property": "^0.1.1"
+    "@stdlib/types": "^0.3.1",
+    "@stdlib/utils-define-property": "^0.2.0"
   },
   "devDependencies": {
     "@stdlib/assert-is-string": "^0.1.1",
