@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@esm/index.mjs';
+import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@v0.2.1-esm/index.mjs';
 ```
 
 #### setReadWriteAccessor( obj, prop, getter, setter )
@@ -98,7 +98,7 @@ v = obj.foo;
 <body>
 <script type="module">
 
-import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@esm/index.mjs';
+import setReadWriteAccessor from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-define-read-write-accessor@v0.2.1-esm/index.mjs';
 
 function Foo( name ) {
     if ( !(this instanceof Foo) ) {
