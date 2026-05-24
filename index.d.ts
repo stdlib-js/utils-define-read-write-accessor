@@ -1,7 +1,7 @@
-/**
+/*
 * @license Apache-2.0
 *
-* Copyright (c) 2018 The Stdlib Authors.
+* Copyright (c) 2019 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,22 +16,37 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-// MODULES //
+/// <reference types="https://cdn.jsdelivr.net/gh/stdlib-js/types@esm/index.d.ts"/>
 
-var defineProperty = require( '@stdlib/utils-define-property' );
+import { PropertyName } from '@stdlib/types/object';
 
+/**
+* Getter function.
+*
+* @returns property value
+*/
+type Getter = () => any;
 
-// MAIN //
+/**
+* Setter function.
+*
+* @param value - property value
+*/
+type Setter = ( x: any ) => void;
 
 /**
 * Defines a read-write accessor.
 *
-* @param {Object} obj - object on which to define the property
-* @param {(string|symbol)} prop - property name
-* @param {Function} getter - get accessor
-* @param {Function} setter - set accessor
+* ## Notes
+*
+* -   Read-write accessors are enumerable and non-configurable.
+*
+* @param obj - object on which to define the property
+* @param prop - property name
+* @param getter - get accessor
+* @param setter - set accessor
 *
 * @example
 * function getter() {
@@ -55,16 +70,9 @@ var defineProperty = require( '@stdlib/utils-define-property' );
 * v = obj.foo;
 * // returns 'beep foo'
 */
-function setReadWriteAccessor( obj, prop, getter, setter ) {
-	defineProperty( obj, prop, {
-		'configurable': false,
-		'enumerable': true,
-		'get': getter,
-		'set': setter
-	});
-}
+declare function setReadWriteAccessor( obj: any, prop: PropertyName, getter: Getter, setter: Setter ): void;
 
 
 // EXPORTS //
 
-module.exports = setReadWriteAccessor;
+export = setReadWriteAccessor;
